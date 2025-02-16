@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>AutoWhitelist</AssemblyName>
+    <RootNamespace>AutoWhitelist</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TShockAPI">
+      <HintPath>lib\TShockAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="OTAPI">
+      <HintPath>lib\OTAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="TerrariaServer">
+      <HintPath>lib\TerrariaServer.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project> 
